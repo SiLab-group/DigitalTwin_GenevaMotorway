@@ -594,7 +594,7 @@ while(run<hours):
                 target_idx_x14 = 4 
                 target_idx_x15 = 1 
                 target_idx_x16 = 0                  
-            elif run == 11 or run == 12 or run == 13 or run == 14 or run == 15:
+            elif run == 12 or run == 13 or run == 14 or run == 15:
                 target_idx_x6 = 5   
                 target_idx_x11 = 0
                 target_idx_x12 = 0
