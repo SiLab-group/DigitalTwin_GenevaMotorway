@@ -1,4 +1,4 @@
-#    Digital Twin of Geneva Motorway (DT-GM) in SUMO
+#    Digital Twin - Geneva Motorway (DT-GM) in SUMO
 #    Author: Krešimir Kušić
 
 #    This program is free software: you can redistribute it and/or modify
