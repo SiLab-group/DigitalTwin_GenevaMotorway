@@ -1,0 +1,36 @@
+<additional>
+	<!--Definitions of:
+		-Detectors
+		-KK 3.2.2022.
+		-->
+		
+
+    <inductionLoop id="detCar_E_out0" vTypes="vtype_car1 " lane="SN_E5_0" pos="0" freq="60" file="det_car_E_out0.xml"/>
+    <inductionLoop id="detCar_E_out1" vTypes="vtype_car1" lane="SN_E5_1" pos="0" freq="60" file="det_car_E_out1.xml"/>
+	<inductionLoop id="detTruck_E_out1" vTypes="vtype_truck1" lane="SN_E5_1" pos="0" freq="60" file="det_truck_E_out1.xml"/>
+	<inductionLoop id="detTruck_E_out0" vTypes="vtype_truck1" lane="SN_E5_0" pos="0" freq="60" file="det_truck_E_out0.xml"/>
+
+<!--     <inductionLoop id="detCar_EN1_0" vTypes="vtype_car1" lane="EN1_0" pos="0" freq="60" file="detCar_EN1_0.xml"/>
+	<inductionLoop id="detTruck_EN1_0" vTypes="vtype_truck1" lane="EN1_0" pos="0" freq="60" file="datadetTruck_EN1_0.xml"/>
+	
+    <inductionLoop id="detCar_ES1_0" vTypes="vtype_car1" lane="ES1_0" pos="0" freq="60" file="datadetCar_ES1.xml"/>
+	<inductionLoop id="detTruck_ES1_0" vTypes="vtype_truck1" lane="ES1_0" pos="0" freq="60" file="datadetTruck_ES1.xml"/>
+    <inductionLoop id="detCar_ES1_1" vTypes="vtype_car1" lane="ES1_1" pos="0" freq="60" file="datadetCar_ES1.xml"/>
+	<inductionLoop id="detTruck_ES1_1" vTypes="vtype_truck1" lane="ES1_1" pos="0" freq="60" file="datadetTruck_ES1.xml"/>
+	
+	
+	<inductionLoop id="detCar_ES_N50_0" vTypes="vtype_car1" lane="ES_N50_0" pos="0" freq="60" file="datadetCar_ES_N50.xml"/>
+	<inductionLoop id="detTruck_ES_N50_0" vTypes="vtype_truck1" lane="ES_N50_0" pos="0" freq="60" file="datadetTruck_ES_N50.xml"/>
+	<inductionLoop id="detCar_ES_N50_1" vTypes="vtype_car1" lane="ES_N50_1" pos="0" freq="60" file="datadetCar_ES_N50.xml"/>
+	<inductionLoop id="detTruck_ES_N50_1" vTypes="vtype_truck1" lane="ES_N50_1" pos="0" freq="60" file="datadetTruck_ES_N50.xml"/>
+	
+    <inductionLoop id="detCar_ES_N49_offramp1" vTypes="vtype_car1" lane="ES_N49_offramp1_0" pos="0" freq="60" file="datadetCar_ES_N49_offramp1.xml"/>
+    <inductionLoop id="detTruck_ES_N49_offramp1" vTypes="vtype_truck1" lane="ES_N49_offramp1_0" pos="0" freq="60" file="datadetTruck_ES_N49_offramp1.xml"/>
+	
+	<inductionLoop id="detCar_N_ES150_0" vTypes="vtype_car1" lane="N_ES150_0" pos="0" freq="60" file="datadetCar_N_ES150_0.xml"/>
+    <inductionLoop id="detTruck_N_ES150_0" vTypes="vtype_truck1" lane="N_ES150_0" pos="0" freq="60" file="datadetTruck_N_ES150_0.xml"/>
+	<inductionLoop id="detCar_N_ES150_1" vTypes="vtype_car1" lane="N_ES150_1" pos="0" freq="60" file="datadetCar_N_ES150_1.xml"/>
+    <inductionLoop id="detTruck_N_ES150_1" vTypes="vtype_truck1" lane="N_ES150_1" pos="0" freq="60" file="datadetTruck_N_ES150_1.xml"/> -->
+	
+	
+</additional>

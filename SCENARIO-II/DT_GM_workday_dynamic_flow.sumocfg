@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Digital Twin of Geneva Motorway (DT-GM) in SUMO
+    Author: Krešimir Kušić
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program. If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+
+        <net-file value="in/motorway_GE_edges_300m_x16.net.xml"/>
+		
+        <additional-files value="in/add/vtype/vtype_distribution.add.xml, in/route/routesDistributions.rou.xml, in/flow/flows.flows.xml,
+		in/add/detector/detectors.add.xml, in/add/cali/cali_E_NS_edge.add.xml, in/add/cali/cali_S_NE_edge.add.xml, in/add/cali/cali_N_ES_edge.add.xml,
+		in/add/cali/cali_N_ES_onRamp1.add.xml, in/add/cali/cali_ES_N_onRamp1.add.xml, in/add/cali/cali_x15_E_onRamp.add.xml,
+		in/add/cali/cali_x16_N_onRamp.add.xml"/>
+		<!-- <load-state.offset value="-3600.5"/> -->
+		
+	</input>
+	
+<!--     <output>
+		<output-prefix value="TIME"/>
+    </output> -->
+
+    <time>
+<!--         <begin value="0"/>
+        <end value="3600"/> -->
+        <step-length value="0.25"/>
+    </time>
+	
+
+	
+	<processing>
+		<!-- <eager-insert value="true"/> -->
+		<step-method.ballistic value="true"/>
+		<!-- <extrapolate-departpos value="true"/> -->
+		<!-- <default.action-step-length value="0.5"/> -->
+		<collision.mingap-factor value="0"/>
+	</processing>
+	
+	
+    <gui_only>
+        <gui-settings-file value="in/gui/view_relative_speed.view.xml"/>
+		<delay value="0"/>
+        <!-- <tracker-interval value="0.25"/> -->
+    </gui_only>
+	
+	<type id="highway.motorway">
+		<restriction vClass="truck" speed="27.78"/>
+	</type>
+	
+	<report>
+        <!-- <xml-validation value="never"/> -->
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+        <log value="sim.log"/>
+    </report>
+
+</configuration>

@@ -1,0 +1,347 @@
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+	
+<!--
+    Digital Twin of Geneva Motorway (DT-GM) in SUMO
+    Author: Krešimir Kušić
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program. If not, see <http://www.gnu.org/licenses/>.
+-->
+
+	<!-- EAST to NORTH-SOUTH-->
+	<route id="route_E_N_Router1toRouter123" edges="E_NS1 E_NS2 E_NS3 E_NS4 E_NS5 E_NS6 E_NS7 E_NS8 EN1 EN2 ES_N1 ES_N2 ES_N3 ES_N4 ES_N5 ES_N6 ES_N7" color="red"/>
+	<route id="route_E_S_Router1toRouter2" edges="E_NS1 E_NS2 E_NS3 E_NS4 E_NS5 E_NS6 E_NS7 E_NS8 ES2 ES9 ES14 EN_S1 EN_S1.136 EN_S2" color="red"/>	
+
+	<routeDistribution id="routedist_E_NS_100_0">
+		<route refId="route_E_N_Router1toRouter123" probability="1"/>
+		<route refId="route_E_S_Router1toRouter2" probability="0"/>
+	</routeDistribution>
+
+	<routeDistribution id="routedist_E_NS_90_10">
+		<route refId="route_E_N_Router1toRouter123" probability="0.9"/>
+		<route refId="route_E_S_Router1toRouter2" probability="0.1"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_E_NS_80_20">
+		<route refId="route_E_N_Router1toRouter123" probability="0.8"/>
+		<route refId="route_E_S_Router1toRouter2" probability="0.2"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_E_NS_70_30">
+		<route refId="route_E_N_Router1toRouter123" probability="0.7"/>
+		<route refId="route_E_S_Router1toRouter2" probability="0.3"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_E_NS_60_40">
+		<route refId="route_E_N_Router1toRouter123" probability="0.6"/>
+		<route refId="route_E_S_Router1toRouter2" probability="0.4"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_E_NS_50_50">
+		<route refId="route_E_N_Router1toRouter123" probability="0.5"/>
+		<route refId="route_E_S_Router1toRouter2" probability="0.5"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_E_NS_40_60">
+		<route refId="route_E_N_Router1toRouter123" probability="0.4"/>
+		<route refId="route_E_S_Router1toRouter2" probability="0.6"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_E_NS_30_70">
+		<route refId="route_E_N_Router1toRouter123" probability="0.3"/>
+		<route refId="route_E_S_Router1toRouter2" probability="0.7"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_E_NS_20_80">
+		<route refId="route_E_N_Router1toRouter123" probability="0.2"/>
+		<route refId="route_E_S_Router1toRouter2" probability="0.8"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_E_NS_10_90">
+		<route refId="route_E_N_Router1toRouter123" probability="0.1"/>
+		<route refId="route_E_S_Router1toRouter2" probability="0.9"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_E_NS_0_100">
+		<route refId="route_E_N_Router1toRouter123" probability="0"/>
+		<route refId="route_E_S_Router1toRouter2" probability="1"/>
+	</routeDistribution>
+	
+	<!-- EAST-SOUTH to NORTH (areas of the first off-ramp1) -->		
+	<route id="route_ES_N_fromRouter123toOffRamp1" edges="ES_N6 ES_N7 ES_N8 ES_N9 ES_N10 ES_N11_offramp1 ES_N11_offramp1.206" color="yellow"/>
+	<route id="route_ES_N_fromRouter123toRouter3" edges="ES_N6 ES_N7 ES_N8 ES_N9 ES_N10 ES_N11 ES_N12 ES_N13 ES_N14 ES_N15 ES_N16 ES_N17 ES_N18" color="green"/>
+	
+	<routeDistribution id="routedist_ES_N_Router123toRouter3_100_0">
+		<route refId="route_ES_N_fromRouter123toRouter3" probability="1"/>
+		<route refId="route_ES_N_fromRouter123toOffRamp1" probability="0"/>
+	</routeDistribution>
+
+	<routeDistribution id="routedist_ES_N_Router123toRouter3_90_10">
+		<route refId="route_ES_N_fromRouter123toRouter3" probability="0.9"/>
+		<route refId="route_ES_N_fromRouter123toOffRamp1" probability="0.1"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_ES_N_Router123toRouter3_80_20">
+		<route refId="route_ES_N_fromRouter123toRouter3" probability="0.8"/>
+		<route refId="route_ES_N_fromRouter123toOffRamp1" probability="0.2"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_ES_N_Router123toRouter3_70_30">
+		<route refId="route_ES_N_fromRouter123toRouter3" probability="0.7"/>
+		<route refId="route_ES_N_fromRouter123toOffRamp1" probability="0.3"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_ES_N_Router123toRouter3_60_40">
+		<route refId="route_ES_N_fromRouter123toRouter3" probability="0.6"/>
+		<route refId="route_ES_N_fromRouter123toOffRamp1" probability="0.4"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_ES_N_Router123toRouter3_50_50">
+		<route refId="route_ES_N_fromRouter123toRouter3" probability="0.5"/>
+		<route refId="route_ES_N_fromRouter123toOffRamp1" probability="0.5"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_ES_N_Router123toRouter3_40_60">
+		<route refId="route_ES_N_fromRouter123toRouter3" probability="0.4"/>
+		<route refId="route_ES_N_fromRouter123toOffRamp1" probability="0.6"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_ES_N_Router123toRouter3_30_70">
+		<route refId="route_ES_N_fromRouter123toRouter3" probability="0.3"/>
+		<route refId="route_ES_N_fromRouter123toOffRamp1" probability="0.7"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_ES_N_Router123toRouter3_20_80">
+		<route refId="route_ES_N_fromRouter123toRouter3" probability="0.2"/>
+		<route refId="route_ES_N_fromRouter123toOffRamp1" probability="0.8"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_ES_N_Router123toRouter3_10_90">
+		<route refId="route_ES_N_fromRouter123toRouter3" probability="0.1"/>
+		<route refId="route_ES_N_fromRouter123toOffRamp1" probability="0.9"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_ES_N_Router123toRouter3_0_100">
+		<route refId="route_ES_N_fromRouter123toRouter3" probability="0"/>
+		<route refId="route_ES_N_fromRouter123toOffRamp1" probability="1"/>
+	</routeDistribution>
+	
+
+	<!-- SOUTH to NORTH-EAST -->
+	<!--Router123 direction north ES_N27, Eend on SN_E39-->
+	<route id="route_S_N_fromRouter2toRoutert123" edges="S_NE12 S_NE13 SN1 SN2 SN3 SN4 ES_N1 ES_N2 ES_N3 ES_N4 ES_N5 ES_N6 ES_N7" color="red"/>
+	<route id="route_S_E_fromRouter2toEend" edges="S_NE12 S_NE13 SE1 SE2 SE3 SE4 SE5 SN_E1 SN_E2 SN_E3 SN_E4 SN_E5 SN_E6 SN_E7 SN_E8 SN_E9" color="yellow"/>
+	
+	<routeDistribution id="routedist_S_NE_100_0">
+		<route refId="route_S_N_fromRouter2toRoutert123" probability="1"/>
+		<route refId="route_S_E_fromRouter2toEend" probability="0"/>
+	</routeDistribution>
+
+	<routeDistribution id="routedist_S_NE_90_10">
+		<route refId="route_S_N_fromRouter2toRoutert123" probability="0.9"/>
+		<route refId="route_S_E_fromRouter2toEend" probability="0.1"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_S_NE_80_20">
+		<route refId="route_S_N_fromRouter2toRoutert123" probability="0.8"/>
+		<route refId="route_S_E_fromRouter2toEend" probability="0.2"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_S_NE_70_30">
+		<route refId="route_S_N_fromRouter2toRoutert123" probability="0.7"/>
+		<route refId="route_S_E_fromRouter2toEend" probability="0.3"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_S_NE_60_40">
+		<route refId="route_S_N_fromRouter2toRoutert123" probability="0.6"/>
+		<route refId="route_S_E_fromRouter2toEend" probability="0.4"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_S_NE_50_50">
+		<route refId="route_S_N_fromRouter2toRoutert123" probability="0.5"/>
+		<route refId="route_S_E_fromRouter2toEend" probability="0.5"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_S_NE_40_60">
+		<route refId="route_S_N_fromRouter2toRoutert123" probability="0.4"/>
+		<route refId="route_S_E_fromRouter2toEend" probability="0.6"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_S_NE_30_70">
+		<route refId="route_S_N_fromRouter2toRoutert123" probability="0.3"/>
+		<route refId="route_S_E_fromRouter2toEend" probability="0.7"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_S_NE_20_80">
+		<route refId="route_S_N_fromRouter2toRoutert123" probability="0.2"/>
+		<route refId="route_S_E_fromRouter2toEend" probability="0.8"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_S_NE_10_90">
+		<route refId="route_S_N_fromRouter2toRoutert123" probability="0.1"/>
+		<route refId="route_S_E_fromRouter2toEend" probability="0.9"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_S_NE_0_100">
+		<route refId="route_S_N_fromRouter2toRoutert123" probability="0"/>
+		<route refId="route_S_E_fromRouter2toEend" probability="1"/>
+	</routeDistribution>
+	
+
+	<!-- NORTH to SOUTH (areas of off-ramp1) -->		
+	<route id="route_N_S_fromRouter3toOffRamp1" edges="N_ES148 N_ES149 N_ES150 N_ES151_offramp1 N_ES151_offramp1.431" color="yellow"/>
+	<route id="route_N_S_fromRouter3toRouter123" edges="N_ES148 N_ES149 N_ES150 N_ES151 N_ES152 N_ES153 N_ES154 N_ES155 N_ES156 N_ES157 N_ES158 N_ES159" color="green"/>
+	
+	<routeDistribution id="routedist_N_S_Router3toRouter123_100_0">
+		<route refId="route_N_S_fromRouter3toRouter123" probability="1"/>
+		<route refId="route_N_S_fromRouter3toOffRamp1" probability="0"/>
+	</routeDistribution>
+
+	<routeDistribution id="routedist_N_S_Router3toRouter123_90_10">
+		<route refId="route_N_S_fromRouter3toRouter123" probability="0.9"/>
+		<route refId="route_N_S_fromRouter3toOffRamp1" probability="0.1"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_N_S_Router3toRouter123_80_20">
+		<route refId="route_N_S_fromRouter3toRouter123" probability="0.8"/>
+		<route refId="route_N_S_fromRouter3toOffRamp1" probability="0.2"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_N_S_Router3toRouter123_70_30">
+		<route refId="route_N_S_fromRouter3toRouter123" probability="0.7"/>
+		<route refId="route_N_S_fromRouter3toOffRamp1" probability="0.3"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_N_S_Router3toRouter123_60_40">
+		<route refId="route_N_S_fromRouter3toRouter123" probability="0.6"/>
+		<route refId="route_N_S_fromRouter3toOffRamp1" probability="0.4"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_N_S_Router3toRouter123_50_50">
+		<route refId="route_N_S_fromRouter3toRouter123" probability="0.5"/>
+		<route refId="route_N_S_fromRouter3toOffRamp1" probability="0.5"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_N_S_Router3toRouter123_40_60">
+		<route refId="route_N_S_fromRouter3toRouter123" probability="0.4"/>
+		<route refId="route_N_S_fromRouter3toOffRamp1" probability="0.6"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_N_S_Router3toRouter123_30_70">
+		<route refId="route_N_S_fromRouter3toRouter123" probability="0.3"/>
+		<route refId="route_N_S_fromRouter3toOffRamp1" probability="0.7"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_N_S_Router3toRouter123_20_80">
+		<route refId="route_N_S_fromRouter3toRouter123" probability="0.2"/>
+		<route refId="route_N_S_fromRouter3toOffRamp1" probability="0.8"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_N_S_Router3toRouter123_10_90">
+		<route refId="route_N_S_fromRouter3toRouter123" probability="0.1"/>
+		<route refId="route_N_S_fromRouter3toOffRamp1" probability="0.9"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_N_S_Router3toRouter123_0_100">
+		<route refId="route_N_S_fromRouter3toRouter123" probability="0"/>
+		<route refId="route_N_S_fromRouter3toOffRamp1" probability="1"/>
+	</routeDistribution>
+
+	<!-- NORTH(Router123) to SOUTH-EAST -->
+	<route id="route_N_S_fromRouter123toRouter2" edges="N_ES158 N_ES159 N_ES160 NS1 NS2 NS3 NS4 EN_S1 EN_S1.136 EN_S2" color="red"/>
+	<route id="route_N_E_fromRouter123toEend" edges="N_ES158 N_ES159 N_ES160 NE1 NE2 NE3 NE3.310 SN_E1 SN_E2 SN_E3 SN_E4 SN_E5 SN_E6 SN_E7 SN_E8 SN_E9" color="green"/>
+	
+	<routeDistribution id="routedist_N_SE_100_0">
+		<route refId="route_N_E_fromRouter123toEend" probability="1"/>
+		<route refId="route_N_S_fromRouter123toRouter2" probability="0"/>
+	</routeDistribution>
+
+	<routeDistribution id="routedist_N_SE_90_10">
+		<route refId="route_N_E_fromRouter123toEend" probability="0.9"/>
+		<route refId="route_N_S_fromRouter123toRouter2" probability="0.1"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_N_SE_80_20">
+		<route refId="route_N_E_fromRouter123toEend" probability="0.8"/>
+		<route refId="route_N_S_fromRouter123toRouter2" probability="0.2"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_N_SE_70_30">
+		<route refId="route_N_E_fromRouter123toEend" probability="0.7"/>
+		<route refId="route_N_S_fromRouter123toRouter2" probability="0.3"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_N_SE_60_40">
+		<route refId="route_N_E_fromRouter123toEend" probability="0.6"/>
+		<route refId="route_N_S_fromRouter123toRouter2" probability="0.4"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_N_SE_50_50">
+		<route refId="route_N_E_fromRouter123toEend" probability="0.5"/>
+		<route refId="route_N_S_fromRouter123toRouter2" probability="0.5"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_N_SE_40_60">
+		<route refId="route_N_E_fromRouter123toEend" probability="0.4"/>
+		<route refId="route_N_S_fromRouter123toRouter2" probability="0.6"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_N_SE_30_70">
+		<route refId="route_N_E_fromRouter123toEend" probability="0.3"/>
+		<route refId="route_N_S_fromRouter123toRouter2" probability="0.7"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_N_SE_20_80">
+		<route refId="route_N_E_fromRouter123toEend" probability="0.2"/>
+		<route refId="route_N_S_fromRouter123toRouter2" probability="0.8"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_N_SE_10_90">
+		<route refId="route_N_E_fromRouter123toEend" probability="0.1"/>
+		<route refId="route_N_S_fromRouter123toRouter2" probability="0.9"/>
+	</routeDistribution>
+	
+	<routeDistribution id="routedist_N_SE_0_100">
+		<route refId="route_N_E_fromRouter123toEend" probability="0"/>
+		<route refId="route_N_S_fromRouter123toRouter2" probability="1"/>
+	</routeDistribution>
+
+	<!-- splitting flow coming from East-North towards the border in direction to France (South)  KK 2-2-2022-->
+	<route id="route_E_S_border_emergency" edges="EN_S1 EN_S1.136 EN_S2 EN_S3 EN_S4 EN_S11 EN_S12" color="red"/>
+	<route id="route_E_S_border11" edges="EN_S1 EN_S1.136 EN_S2 EN_S3 EN_S5.19 EN_S7 EN_S7.8 EN_S7.166 EN_S8 EN_S11 EN_S12" color="red"/>
+	<route id="route_E_S_border12" edges="EN_S1 EN_S1.136 EN_S2 EN_S3 EN_S5.19 EN_S7 EN_S7.8 EN_S7.166 EN_S9 EN_S12" color="green"/>
+	<route id="route_E_S_border13" edges="EN_S1 EN_S1.136 EN_S2 EN_S3 EN_S5.19 EN_S7 EN_S7.8 EN_S7.166 EN_S10 EN_S12" color="blue"/>
+	<route id="route_E_S_border21" edges="EN_S1 EN_S1.136 EN_S2 EN_S3 EN_S6.24 EN_S7 EN_S7.8 EN_S7.166 EN_S8 EN_S11 EN_S12" color="red"/>
+	<route id="route_E_S_border22" edges="EN_S1 EN_S1.136 EN_S2 EN_S3 EN_S6.24 EN_S7 EN_S7.8 EN_S7.166 EN_S9 EN_S12" color="green"/>
+	<route id="route_E_S_border23" edges="EN_S1 EN_S1.136 EN_S2 EN_S3 EN_S6.24 EN_S7 EN_S7.8 EN_S7.166 EN_S10 EN_S12" color="blue"/>
+	<route id="route_E_S_border31" edges="EN_S1 EN_S1.136 EN_S2 EN_S3 EN_S6.24 EN_S7 EN_S7.8 EN_S7.166 EN_S8 EN_S11 EN_S12" color="red"/>
+	<route id="route_E_S_border32" edges="EN_S1 EN_S1.136 EN_S2 EN_S3 EN_S6.24 EN_S7 EN_S7.8 EN_S7.166 EN_S9 EN_S12" color="green"/>
+	<route id="route_E_S_border33" edges="EN_S1 EN_S1.136 EN_S2 EN_S3 EN_S6.24 EN_S7 EN_S7.8 EN_S7.166 EN_S10 EN_S12" color="blue"/>
+	
+	
+		<!-- <route refId="route_E_S_border_emergency"/> -->
+	<routeDistribution id="routedist_equal_EN_S_border">
+		<!-- <route refId="route_E_S_border11"/> -->
+		<route refId="route_E_S_border12"/>
+<!-- 		<route refId="route_E_S_border13"/>
+		<route refId="route_E_S_border21"/>
+		<route refId="route_E_S_border22"/>
+		<route refId="route_E_S_border23"/>
+		<route refId="route_E_S_border31"/>
+		<route refId="route_E_S_border32"/> -->
+		<route refId="route_E_S_border33"/>
+	</routeDistribution>
+	
+	
+	
+</routes>

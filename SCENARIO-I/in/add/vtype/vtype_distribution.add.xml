@@ -1,0 +1,1229 @@
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+
+<!--
+    Digital Twin of Geneva Motorway (DT-GM) in SUMO
+    Author: Krešimir Kušić
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program. If not, see <http://www.gnu.org/licenses/>.
+-->
+
+	<vTypeDistribution id="vtype_car1">
+
+		<vType id="vtype_car10" tau="1.01" sigma="0.500" length="5.000" lcStrategic="0.793" minGap="1.480" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car11" tau="1.012" sigma="0.500" length="5.000" lcStrategic="0.784" minGap="1.524" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car12" tau="0.973" sigma="0.500" length="5.000" lcStrategic="0.777" minGap="1.530" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car13" tau="0.942" sigma="0.500" length="5.000" lcStrategic="0.753" minGap="1.481" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car14" tau="0.953" sigma="0.500" length="5.000" lcStrategic="0.696" minGap="1.481" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car15" tau="1.004" sigma="0.500" length="5.000" lcStrategic="0.822" minGap="1.526" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car16" tau="0.988" sigma="0.500" length="5.000" lcStrategic="0.843" minGap="1.476" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car17" tau="0.951" sigma="0.500" length="5.000" lcStrategic="0.714" minGap="1.518" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car18" tau="1.06" sigma="0.500" length="5.000" lcStrategic="0.782" minGap="1.472" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car19" tau="0.924" sigma="0.500" length="5.000" lcStrategic="0.812" minGap="1.485" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car110" tau="0.963" sigma="0.500" length="5.000" lcStrategic="0.739" minGap="1.495" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car111" tau="1.002" sigma="0.500" length="5.000" lcStrategic="0.752" minGap="1.496" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car112" tau="1.049" sigma="0.500" length="5.000" lcStrategic="0.707" minGap="1.497" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car113" tau="0.899" sigma="0.500" length="5.000" lcStrategic="0.709" minGap="1.501" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car114" tau="0.973" sigma="0.500" length="5.000" lcStrategic="0.821" minGap="1.493" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car115" tau="1.025" sigma="0.500" length="5.000" lcStrategic="0.821" minGap="1.475" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car116" tau="1.059" sigma="0.500" length="5.000" lcStrategic="0.751" minGap="1.509" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car117" tau="0.902" sigma="0.500" length="5.000" lcStrategic="0.816" minGap="1.518" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car118" tau="0.901" sigma="0.500" length="5.000" lcStrategic="0.843" minGap="1.490" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car119" tau="1.023" sigma="0.500" length="5.000" lcStrategic="0.795" minGap="1.513" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car120" tau="0.956" sigma="0.500" length="5.000" lcStrategic="0.741" minGap="1.511" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car121" tau="0.937" sigma="0.500" length="5.000" lcStrategic="0.812" minGap="1.525" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car122" tau="1.012" sigma="0.500" length="5.000" lcStrategic="0.772" minGap="1.495" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car123" tau="0.978" sigma="0.500" length="5.000" lcStrategic="0.825" minGap="1.497" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car124" tau="1.132" sigma="0.500" length="5.000" lcStrategic="0.910" minGap="1.508" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car125" tau="0.949" sigma="0.500" length="5.000" lcStrategic="0.781" minGap="1.566" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car126" tau="0.956" sigma="0.500" length="5.000" lcStrategic="0.797" minGap="1.476" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car127" tau="1.066" sigma="0.500" length="5.000" lcStrategic="0.771" minGap="1.502" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car128" tau="0.957" sigma="0.500" length="5.000" lcStrategic="0.728" minGap="1.509" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car129" tau="1.061" sigma="0.500" length="5.000" lcStrategic="0.738" minGap="1.485" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car130" tau="0.955" sigma="0.500" length="5.000" lcStrategic="0.859" minGap="1.521" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car131" tau="0.911" sigma="0.500" length="5.000" lcStrategic="0.750" minGap="1.526" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car132" tau="1.052" sigma="0.500" length="5.000" lcStrategic="0.837" minGap="1.496" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car133" tau="1.048" sigma="0.500" length="5.000" lcStrategic="0.806" minGap="1.492" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car134" tau="1.022" sigma="0.500" length="5.000" lcStrategic="0.837" minGap="1.451" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car135" tau="0.893" sigma="0.500" length="5.000" lcStrategic="0.796" minGap="1.482" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car136" tau="0.982" sigma="0.500" length="5.000" lcStrategic="0.832" minGap="1.510" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car137" tau="1.07" sigma="0.500" length="5.000" lcStrategic="0.886" minGap="1.492" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car138" tau="0.942" sigma="0.500" length="5.000" lcStrategic="0.795" minGap="1.529" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car139" tau="1.064" sigma="0.500" length="5.000" lcStrategic="0.858" minGap="1.513" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car140" tau="1.015" sigma="0.500" length="5.000" lcStrategic="0.811" minGap="1.469" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car141" tau="0.995" sigma="0.500" length="5.000" lcStrategic="0.938" minGap="1.483" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car142" tau="0.954" sigma="0.500" length="5.000" lcStrategic="0.876" minGap="1.500" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car143" tau="1.052" sigma="0.500" length="5.000" lcStrategic="0.844" minGap="1.508" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car144" tau="1.048" sigma="0.500" length="5.000" lcStrategic="0.794" minGap="1.493" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car145" tau="1.056" sigma="0.500" length="5.000" lcStrategic="0.782" minGap="1.505" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car146" tau="1.013" sigma="0.500" length="5.000" lcStrategic="0.807" minGap="1.529" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car147" tau="0.948" sigma="0.500" length="5.000" lcStrategic="0.882" minGap="1.468" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car148" tau="0.986" sigma="0.500" length="5.000" lcStrategic="0.832" minGap="1.506" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car149" tau="0.955" sigma="0.500" length="5.000" lcStrategic="0.837" minGap="1.462" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car150" tau="0.966" sigma="0.500" length="5.000" lcStrategic="0.827" minGap="1.533" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car151" tau="0.986" sigma="0.500" length="5.000" lcStrategic="0.815" minGap="1.482" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car152" tau="0.969" sigma="0.500" length="5.000" lcStrategic="0.814" minGap="1.512" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car153" tau="0.96" sigma="0.500" length="5.000" lcStrategic="0.818" minGap="1.495" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car154" tau="0.966" sigma="0.500" length="5.000" lcStrategic="0.919" minGap="1.512" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car155" tau="0.96" sigma="0.500" length="5.000" lcStrategic="0.784" minGap="1.478" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car156" tau="1.054" sigma="0.500" length="5.000" lcStrategic="0.774" minGap="1.489" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car157" tau="0.955" sigma="0.500" length="5.000" lcStrategic="0.792" minGap="1.499" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car158" tau="1.021" sigma="0.500" length="5.000" lcStrategic="0.855" minGap="1.516" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car159" tau="1.024" sigma="0.500" length="5.000" lcStrategic="0.847" minGap="1.486" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car160" tau="0.901" sigma="0.500" length="5.000" lcStrategic="0.840" minGap="1.520" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car161" tau="1.102" sigma="0.500" length="5.000" lcStrategic="0.825" minGap="1.502" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car162" tau="0.979" sigma="0.500" length="5.000" lcStrategic="0.824" minGap="1.498" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car163" tau="1.071" sigma="0.500" length="5.000" lcStrategic="0.762" minGap="1.505" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car164" tau="1.083" sigma="0.500" length="5.000" lcStrategic="0.871" minGap="1.505" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car165" tau="1.013" sigma="0.500" length="5.000" lcStrategic="0.812" minGap="1.511" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car166" tau="1.007" sigma="0.500" length="5.000" lcStrategic="0.827" minGap="1.497" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car167" tau="1.079" sigma="0.500" length="5.000" lcStrategic="0.815" minGap="1.491" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car168" tau="1.043" sigma="0.500" length="5.000" lcStrategic="0.724" minGap="1.524" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car169" tau="0.999" sigma="0.500" length="5.000" lcStrategic="0.779" minGap="1.477" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car170" tau="0.97" sigma="0.500" length="5.000" lcStrategic="0.762" minGap="1.515" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car171" tau="0.933" sigma="0.500" length="5.000" lcStrategic="0.742" minGap="1.506" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car172" tau="1.025" sigma="0.500" length="5.000" lcStrategic="0.777" minGap="1.469" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car173" tau="0.948" sigma="0.500" length="5.000" lcStrategic="0.862" minGap="1.531" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car174" tau="0.981" sigma="0.500" length="5.000" lcStrategic="0.766" minGap="1.481" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car175" tau="0.969" sigma="0.500" length="5.000" lcStrategic="0.908" minGap="1.513" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car176" tau="0.938" sigma="0.500" length="5.000" lcStrategic="0.875" minGap="1.489" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car177" tau="0.99" sigma="0.500" length="5.000" lcStrategic="0.791" minGap="1.508" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car178" tau="0.968" sigma="0.500" length="5.000" lcStrategic="0.845" minGap="1.498" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car179" tau="1.004" sigma="0.500" length="5.000" lcStrategic="0.842" minGap="1.512" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car180" tau="1.096" sigma="0.500" length="5.000" lcStrategic="0.695" minGap="1.498" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car181" tau="1.038" sigma="0.500" length="5.000" lcStrategic="0.782" minGap="1.487" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car182" tau="0.94" sigma="0.500" length="5.000" lcStrategic="0.762" minGap="1.506" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car183" tau="1.029" sigma="0.500" length="5.000" lcStrategic="0.785" minGap="1.508" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car184" tau="0.971" sigma="0.500" length="5.000" lcStrategic="0.805" minGap="1.511" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car185" tau="0.966" sigma="0.500" length="5.000" lcStrategic="0.881" minGap="1.499" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car186" tau="1.083" sigma="0.500" length="5.000" lcStrategic="0.758" minGap="1.492" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car187" tau="1.069" sigma="0.500" length="5.000" lcStrategic="0.722" minGap="1.493" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car188" tau="0.979" sigma="0.500" length="5.000" lcStrategic="0.775" minGap="1.490" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car189" tau="0.995" sigma="0.500" length="5.000" lcStrategic="0.799" minGap="1.522" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car190" tau="0.962" sigma="0.500" length="5.000" lcStrategic="0.833" minGap="1.542" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car191" tau="1.028" sigma="0.500" length="5.000" lcStrategic="0.811" minGap="1.479" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car192" tau="0.945" sigma="0.500" length="5.000" lcStrategic="0.748" minGap="1.477" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car193" tau="1.019" sigma="0.500" length="5.000" lcStrategic="0.829" minGap="1.522" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car194" tau="0.991" sigma="0.500" length="5.000" lcStrategic="0.743" minGap="1.490" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car195" tau="0.978" sigma="0.500" length="5.000" lcStrategic="0.787" minGap="1.499" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car196" tau="1.03" sigma="0.500" length="5.000" lcStrategic="0.883" minGap="1.492" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car197" tau="1.087" sigma="0.500" length="5.000" lcStrategic="0.747" minGap="1.500" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car198" tau="1.031" sigma="0.500" length="5.000" lcStrategic="0.718" minGap="1.504" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car199" tau="0.954" sigma="0.500" length="5.000" lcStrategic="0.824" minGap="1.503" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1100" tau="1.019" sigma="0.500" length="5.000" lcStrategic="0.740" minGap="1.461" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1101" tau="1.056" sigma="0.500" length="5.000" lcStrategic="0.803" minGap="1.492" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1102" tau="0.992" sigma="0.500" length="5.000" lcStrategic="0.751" minGap="1.490" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1103" tau="0.963" sigma="0.500" length="5.000" lcStrategic="0.793" minGap="1.499" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1104" tau="1.03" sigma="0.500" length="5.000" lcStrategic="0.733" minGap="1.503" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1105" tau="0.901" sigma="0.500" length="5.000" lcStrategic="0.862" minGap="1.483" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1106" tau="1.125" sigma="0.500" length="5.000" lcStrategic="0.782" minGap="1.503" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1107" tau="0.96" sigma="0.500" length="5.000" lcStrategic="0.769" minGap="1.492" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1108" tau="1.074" sigma="0.500" length="5.000" lcStrategic="0.782" minGap="1.520" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1109" tau="1.065" sigma="0.500" length="5.000" lcStrategic="0.784" minGap="1.498" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1110" tau="1.055" sigma="0.500" length="5.000" lcStrategic="0.717" minGap="1.467" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1111" tau="0.973" sigma="0.500" length="5.000" lcStrategic="0.895" minGap="1.481" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1112" tau="0.989" sigma="0.500" length="5.000" lcStrategic="0.822" minGap="1.527" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1113" tau="0.993" sigma="0.500" length="5.000" lcStrategic="0.809" minGap="1.477" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1114" tau="0.967" sigma="0.500" length="5.000" lcStrategic="0.822" minGap="1.518" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1115" tau="0.926" sigma="0.500" length="5.000" lcStrategic="0.702" minGap="1.512" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1116" tau="0.951" sigma="0.500" length="5.000" lcStrategic="0.766" minGap="1.508" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1117" tau="1.021" sigma="0.500" length="5.000" lcStrategic="0.785" minGap="1.477" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1118" tau="0.982" sigma="0.500" length="5.000" lcStrategic="0.824" minGap="1.476" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1119" tau="1.017" sigma="0.500" length="5.000" lcStrategic="0.786" minGap="1.478" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1120" tau="1.002" sigma="0.500" length="5.000" lcStrategic="0.802" minGap="1.493" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1121" tau="1.064" sigma="0.500" length="5.000" lcStrategic="0.812" minGap="1.482" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1122" tau="0.995" sigma="0.500" length="5.000" lcStrategic="0.788" minGap="1.504" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1123" tau="0.916" sigma="0.500" length="5.000" lcStrategic="0.772" minGap="1.515" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1124" tau="1.016" sigma="0.500" length="5.000" lcStrategic="0.786" minGap="1.493" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1125" tau="1.095" sigma="0.500" length="5.000" lcStrategic="0.777" minGap="1.477" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1126" tau="1.014" sigma="0.500" length="5.000" lcStrategic="0.878" minGap="1.512" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1127" tau="0.996" sigma="0.500" length="5.000" lcStrategic="0.839" minGap="1.487" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1128" tau="1.013" sigma="0.500" length="5.000" lcStrategic="0.845" minGap="1.463" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1129" tau="0.995" sigma="0.500" length="5.000" lcStrategic="0.774" minGap="1.491" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1130" tau="1.027" sigma="0.500" length="5.000" lcStrategic="0.853" minGap="1.491" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1131" tau="1.026" sigma="0.500" length="5.000" lcStrategic="0.835" minGap="1.529" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1132" tau="0.965" sigma="0.500" length="5.000" lcStrategic="0.815" minGap="1.519" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1133" tau="1.056" sigma="0.500" length="5.000" lcStrategic="0.685" minGap="1.503" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1134" tau="0.971" sigma="0.500" length="5.000" lcStrategic="0.870" minGap="1.501" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1135" tau="0.967" sigma="0.500" length="5.000" lcStrategic="0.800" minGap="1.482" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1136" tau="0.985" sigma="0.500" length="5.000" lcStrategic="0.767" minGap="1.549" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1137" tau="0.988" sigma="0.500" length="5.000" lcStrategic="0.913" minGap="1.516" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1138" tau="1.069" sigma="0.500" length="5.000" lcStrategic="0.892" minGap="1.482" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1139" tau="1.012" sigma="0.500" length="5.000" lcStrategic="0.740" minGap="1.500" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1140" tau="0.91" sigma="0.500" length="5.000" lcStrategic="0.758" minGap="1.479" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1141" tau="0.987" sigma="0.500" length="5.000" lcStrategic="0.841" minGap="1.546" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1142" tau="1.004" sigma="0.500" length="5.000" lcStrategic="0.849" minGap="1.487" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1143" tau="1.041" sigma="0.500" length="5.000" lcStrategic="0.906" minGap="1.528" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1144" tau="0.966" sigma="0.500" length="5.000" lcStrategic="0.789" minGap="1.495" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1145" tau="0.923" sigma="0.500" length="5.000" lcStrategic="0.819" minGap="1.506" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1146" tau="1.088" sigma="0.500" length="5.000" lcStrategic="0.752" minGap="1.478" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1147" tau="0.983" sigma="0.500" length="5.000" lcStrategic="0.803" minGap="1.509" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1148" tau="1.001" sigma="0.500" length="5.000" lcStrategic="0.853" minGap="1.493" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1149" tau="1.047" sigma="0.500" length="5.000" lcStrategic="0.819" minGap="1.501" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1150" tau="1.03" sigma="0.500" length="5.000" lcStrategic="0.817" minGap="1.529" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1151" tau="0.994" sigma="0.500" length="5.000" lcStrategic="0.723" minGap="1.506" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1152" tau="1.089" sigma="0.500" length="5.000" lcStrategic="0.737" minGap="1.496" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1153" tau="0.958" sigma="0.500" length="5.000" lcStrategic="0.823" minGap="1.514" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1154" tau="0.962" sigma="0.500" length="5.000" lcStrategic="0.796" minGap="1.527" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1155" tau="1.055" sigma="0.500" length="5.000" lcStrategic="0.805" minGap="1.476" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1156" tau="0.982" sigma="0.500" length="5.000" lcStrategic="0.889" minGap="1.509" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1157" tau="1.025" sigma="0.500" length="5.000" lcStrategic="0.770" minGap="1.534" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1158" tau="1.036" sigma="0.500" length="5.000" lcStrategic="0.809" minGap="1.478" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1159" tau="0.991" sigma="0.500" length="5.000" lcStrategic="0.753" minGap="1.490" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1160" tau="1.12" sigma="0.500" length="5.000" lcStrategic="0.783" minGap="1.488" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1161" tau="0.967" sigma="0.500" length="5.000" lcStrategic="0.842" minGap="1.471" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1162" tau="1.043" sigma="0.500" length="5.000" lcStrategic="0.814" minGap="1.488" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1163" tau="0.99" sigma="0.500" length="5.000" lcStrategic="0.887" minGap="1.505" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1164" tau="1.038" sigma="0.500" length="5.000" lcStrategic="0.749" minGap="1.488" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1165" tau="0.949" sigma="0.500" length="5.000" lcStrategic="0.751" minGap="1.485" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1166" tau="0.943" sigma="0.500" length="5.000" lcStrategic="0.911" minGap="1.536" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1167" tau="1.087" sigma="0.500" length="5.000" lcStrategic="0.777" minGap="1.472" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1168" tau="0.938" sigma="0.500" length="5.000" lcStrategic="0.889" minGap="1.508" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1169" tau="1.017" sigma="0.500" length="5.000" lcStrategic="0.840" minGap="1.483" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1170" tau="1.04" sigma="0.500" length="5.000" lcStrategic="0.754" minGap="1.496" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1171" tau="1.014" sigma="0.500" length="5.000" lcStrategic="0.797" minGap="1.469" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1172" tau="1.121" sigma="0.500" length="5.000" lcStrategic="0.847" minGap="1.509" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1173" tau="1.039" sigma="0.500" length="5.000" lcStrategic="0.830" minGap="1.526" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1174" tau="0.962" sigma="0.500" length="5.000" lcStrategic="0.831" minGap="1.502" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1175" tau="0.965" sigma="0.500" length="5.000" lcStrategic="0.763" minGap="1.507" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1176" tau="0.899" sigma="0.500" length="5.000" lcStrategic="0.780" minGap="1.486" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1177" tau="0.982" sigma="0.500" length="5.000" lcStrategic="0.801" minGap="1.484" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1178" tau="1.102" sigma="0.500" length="5.000" lcStrategic="0.732" minGap="1.516" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1179" tau="0.981" sigma="0.500" length="5.000" lcStrategic="0.821" minGap="1.493" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1180" tau="0.976" sigma="0.500" length="5.000" lcStrategic="0.847" minGap="1.513" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1181" tau="0.925" sigma="0.500" length="5.000" lcStrategic="0.865" minGap="1.517" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1182" tau="0.979" sigma="0.500" length="5.000" lcStrategic="0.825" minGap="1.506" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1183" tau="1.035" sigma="0.500" length="5.000" lcStrategic="0.751" minGap="1.469" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1184" tau="0.921" sigma="0.500" length="5.000" lcStrategic="0.761" minGap="1.493" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1185" tau="1.082" sigma="0.500" length="5.000" lcStrategic="0.814" minGap="1.467" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1186" tau="0.958" sigma="0.500" length="5.000" lcStrategic="0.709" minGap="1.467" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1187" tau="0.974" sigma="0.500" length="5.000" lcStrategic="0.809" minGap="1.516" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1188" tau="1.0" sigma="0.500" length="5.000" lcStrategic="0.789" minGap="1.509" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1189" tau="1.051" sigma="0.500" length="5.000" lcStrategic="0.843" minGap="1.501" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1190" tau="1.094" sigma="0.500" length="5.000" lcStrategic="0.797" minGap="1.518" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1191" tau="1.041" sigma="0.500" length="5.000" lcStrategic="0.821" minGap="1.487" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1192" tau="0.984" sigma="0.500" length="5.000" lcStrategic="0.821" minGap="1.489" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1193" tau="1.004" sigma="0.500" length="5.000" lcStrategic="0.755" minGap="1.522" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1194" tau="0.978" sigma="0.500" length="5.000" lcStrategic="0.782" minGap="1.532" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1195" tau="0.956" sigma="0.500" length="5.000" lcStrategic="0.854" minGap="1.522" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1196" tau="1.051" sigma="0.500" length="5.000" lcStrategic="0.767" minGap="1.510" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1197" tau="1.002" sigma="0.500" length="5.000" lcStrategic="0.733" minGap="1.496" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1198" tau="1.021" sigma="0.500" length="5.000" lcStrategic="0.756" minGap="1.505" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1199" tau="1.063" sigma="0.500" length="5.000" lcStrategic="0.856" minGap="1.503" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1200" tau="1.053" sigma="0.500" length="5.000" lcStrategic="0.783" minGap="1.508" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1201" tau="1.142" sigma="0.500" length="5.000" lcStrategic="0.803" minGap="1.499" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1202" tau="1.016" sigma="0.500" length="5.000" lcStrategic="0.874" minGap="1.500" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1203" tau="1.009" sigma="0.500" length="5.000" lcStrategic="0.830" minGap="1.550" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1204" tau="0.966" sigma="0.500" length="5.000" lcStrategic="0.879" minGap="1.510" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1205" tau="1.034" sigma="0.500" length="5.000" lcStrategic="0.855" minGap="1.507" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1206" tau="0.96" sigma="0.500" length="5.000" lcStrategic="0.729" minGap="1.519" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1207" tau="1.005" sigma="0.500" length="5.000" lcStrategic="0.744" minGap="1.520" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1208" tau="1.049" sigma="0.500" length="5.000" lcStrategic="0.713" minGap="1.487" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1209" tau="0.979" sigma="0.500" length="5.000" lcStrategic="0.798" minGap="1.477" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1210" tau="0.994" sigma="0.500" length="5.000" lcStrategic="0.746" minGap="1.498" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1211" tau="0.986" sigma="0.500" length="5.000" lcStrategic="0.793" minGap="1.504" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1212" tau="0.944" sigma="0.500" length="5.000" lcStrategic="0.808" minGap="1.486" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1213" tau="1.02" sigma="0.500" length="5.000" lcStrategic="0.825" minGap="1.493" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1214" tau="1.005" sigma="0.500" length="5.000" lcStrategic="0.749" minGap="1.522" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1215" tau="0.945" sigma="0.500" length="5.000" lcStrategic="0.855" minGap="1.491" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1216" tau="0.99" sigma="0.500" length="5.000" lcStrategic="0.793" minGap="1.492" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1217" tau="1.006" sigma="0.500" length="5.000" lcStrategic="0.809" minGap="1.489" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1218" tau="0.975" sigma="0.500" length="5.000" lcStrategic="0.858" minGap="1.514" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1219" tau="1.008" sigma="0.500" length="5.000" lcStrategic="0.837" minGap="1.458" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1220" tau="0.978" sigma="0.500" length="5.000" lcStrategic="0.892" minGap="1.527" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1221" tau="0.949" sigma="0.500" length="5.000" lcStrategic="0.811" minGap="1.516" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1222" tau="0.95" sigma="0.500" length="5.000" lcStrategic="0.872" minGap="1.462" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1223" tau="0.959" sigma="0.500" length="5.000" lcStrategic="0.758" minGap="1.483" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1224" tau="1.019" sigma="0.500" length="5.000" lcStrategic="0.708" minGap="1.469" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1225" tau="1.034" sigma="0.500" length="5.000" lcStrategic="0.842" minGap="1.513" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1226" tau="0.983" sigma="0.500" length="5.000" lcStrategic="0.762" minGap="1.483" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1227" tau="0.972" sigma="0.500" length="5.000" lcStrategic="0.810" minGap="1.520" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1228" tau="0.983" sigma="0.500" length="5.000" lcStrategic="0.683" minGap="1.516" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1229" tau="0.999" sigma="0.500" length="5.000" lcStrategic="0.843" minGap="1.522" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1230" tau="1.001" sigma="0.500" length="5.000" lcStrategic="0.715" minGap="1.496" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1231" tau="1.105" sigma="0.500" length="5.000" lcStrategic="0.770" minGap="1.482" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1232" tau="1.018" sigma="0.500" length="5.000" lcStrategic="0.787" minGap="1.506" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1233" tau="0.943" sigma="0.500" length="5.000" lcStrategic="0.820" minGap="1.518" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1234" tau="1.02" sigma="0.500" length="5.000" lcStrategic="0.802" minGap="1.515" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1235" tau="0.989" sigma="0.500" length="5.000" lcStrategic="0.887" minGap="1.486" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1236" tau="0.991" sigma="0.500" length="5.000" lcStrategic="0.792" minGap="1.486" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1237" tau="1.104" sigma="0.500" length="5.000" lcStrategic="0.797" minGap="1.519" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1238" tau="1.035" sigma="0.500" length="5.000" lcStrategic="0.766" minGap="1.505" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1239" tau="1.019" sigma="0.500" length="5.000" lcStrategic="0.796" minGap="1.482" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1240" tau="0.997" sigma="0.500" length="5.000" lcStrategic="0.800" minGap="1.508" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1241" tau="0.983" sigma="0.500" length="5.000" lcStrategic="0.794" minGap="1.491" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1242" tau="1.047" sigma="0.500" length="5.000" lcStrategic="0.795" minGap="1.497" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1243" tau="0.986" sigma="0.500" length="5.000" lcStrategic="0.837" minGap="1.512" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1244" tau="0.977" sigma="0.500" length="5.000" lcStrategic="0.766" minGap="1.490" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1245" tau="1.009" sigma="0.500" length="5.000" lcStrategic="0.868" minGap="1.523" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1246" tau="1.003" sigma="0.500" length="5.000" lcStrategic="0.776" minGap="1.546" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1247" tau="1.066" sigma="0.500" length="5.000" lcStrategic="0.645" minGap="1.508" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1248" tau="1.074" sigma="0.500" length="5.000" lcStrategic="0.775" minGap="1.507" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1249" tau="0.899" sigma="0.500" length="5.000" lcStrategic="0.792" minGap="1.493" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1250" tau="0.992" sigma="0.500" length="5.000" lcStrategic="0.762" minGap="1.512" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1251" tau="0.994" sigma="0.500" length="5.000" lcStrategic="0.785" minGap="1.463" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1252" tau="0.982" sigma="0.500" length="5.000" lcStrategic="0.831" minGap="1.517" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1253" tau="0.982" sigma="0.500" length="5.000" lcStrategic="0.812" minGap="1.531" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1254" tau="0.971" sigma="0.500" length="5.000" lcStrategic="0.778" minGap="1.498" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1255" tau="0.978" sigma="0.500" length="5.000" lcStrategic="0.913" minGap="1.497" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1256" tau="1.055" sigma="0.500" length="5.000" lcStrategic="0.767" minGap="1.480" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1257" tau="0.967" sigma="0.500" length="5.000" lcStrategic="0.720" minGap="1.512" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1258" tau="0.92" sigma="0.500" length="5.000" lcStrategic="0.833" minGap="1.516" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1259" tau="0.981" sigma="0.500" length="5.000" lcStrategic="0.771" minGap="1.480" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1260" tau="1.014" sigma="0.500" length="5.000" lcStrategic="0.747" minGap="1.501" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1261" tau="0.944" sigma="0.500" length="5.000" lcStrategic="0.777" minGap="1.548" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1262" tau="1.057" sigma="0.500" length="5.000" lcStrategic="0.793" minGap="1.507" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1263" tau="0.962" sigma="0.500" length="5.000" lcStrategic="0.786" minGap="1.489" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1264" tau="1.104" sigma="0.500" length="5.000" lcStrategic="0.736" minGap="1.503" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1265" tau="0.956" sigma="0.500" length="5.000" lcStrategic="0.714" minGap="1.476" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1266" tau="0.99" sigma="0.500" length="5.000" lcStrategic="0.770" minGap="1.503" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1267" tau="0.912" sigma="0.500" length="5.000" lcStrategic="0.835" minGap="1.510" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1268" tau="1.114" sigma="0.500" length="5.000" lcStrategic="0.731" minGap="1.447" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1269" tau="1.123" sigma="0.500" length="5.000" lcStrategic="0.867" minGap="1.478" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1270" tau="1.007" sigma="0.500" length="5.000" lcStrategic="0.807" minGap="1.506" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1271" tau="0.983" sigma="0.500" length="5.000" lcStrategic="0.805" minGap="1.473" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1272" tau="0.909" sigma="0.500" length="5.000" lcStrategic="0.787" minGap="1.470" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1273" tau="1.034" sigma="0.500" length="5.000" lcStrategic="0.825" minGap="1.512" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1274" tau="0.983" sigma="0.500" length="5.000" lcStrategic="0.771" minGap="1.499" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1275" tau="0.954" sigma="0.500" length="5.000" lcStrategic="0.817" minGap="1.521" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1276" tau="1.005" sigma="0.500" length="5.000" lcStrategic="0.787" minGap="1.521" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1277" tau="1.004" sigma="0.500" length="5.000" lcStrategic="0.821" minGap="1.476" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1278" tau="0.996" sigma="0.500" length="5.000" lcStrategic="0.704" minGap="1.496" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1279" tau="1.066" sigma="0.500" length="5.000" lcStrategic="0.814" minGap="1.490" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1280" tau="0.952" sigma="0.500" length="5.000" lcStrategic="0.811" minGap="1.504" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1281" tau="0.986" sigma="0.500" length="5.000" lcStrategic="0.841" minGap="1.497" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1282" tau="1.073" sigma="0.500" length="5.000" lcStrategic="0.791" minGap="1.489" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1283" tau="1.025" sigma="0.500" length="5.000" lcStrategic="0.795" minGap="1.481" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1284" tau="1.033" sigma="0.500" length="5.000" lcStrategic="0.799" minGap="1.513" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1285" tau="0.956" sigma="0.500" length="5.000" lcStrategic="0.824" minGap="1.520" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1286" tau="1.011" sigma="0.500" length="5.000" lcStrategic="0.735" minGap="1.489" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1287" tau="0.951" sigma="0.500" length="5.000" lcStrategic="0.879" minGap="1.521" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1288" tau="1.054" sigma="0.500" length="5.000" lcStrategic="0.860" minGap="1.529" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1289" tau="1.022" sigma="0.500" length="5.000" lcStrategic="0.864" minGap="1.468" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1290" tau="1.013" sigma="0.500" length="5.000" lcStrategic="0.840" minGap="1.473" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1291" tau="1.012" sigma="0.500" length="5.000" lcStrategic="0.764" minGap="1.489" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1292" tau="1.086" sigma="0.500" length="5.000" lcStrategic="0.824" minGap="1.491" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1293" tau="1.04" sigma="0.500" length="5.000" lcStrategic="0.792" minGap="1.508" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1294" tau="0.96" sigma="0.500" length="5.000" lcStrategic="0.831" minGap="1.499" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1295" tau="0.958" sigma="0.500" length="5.000" lcStrategic="0.769" minGap="1.527" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1296" tau="0.932" sigma="0.500" length="5.000" lcStrategic="0.810" minGap="1.515" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1297" tau="0.996" sigma="0.500" length="5.000" lcStrategic="0.958" minGap="1.494" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1298" tau="0.933" sigma="0.500" length="5.000" lcStrategic="0.733" minGap="1.505" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+		<vType id="vtype_car1299" tau="0.989" sigma="0.500" length="5.000" lcStrategic="0.779" minGap="1.506" color="blue" vClass="passenger" carFollowModel="EIDM" />
+
+	</vTypeDistribution>
+
+	<vTypeDistribution id="vtype_truck1">
+
+		<vType id="vtype_truck10" tau="1.014" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck11" tau="1.009" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck12" tau="1.049" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck13" tau="1.048" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck14" tau="1.073" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck15" tau="1.03" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck16" tau="1.041" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck17" tau="1.071" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck18" tau="1.013" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck19" tau="1.055" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck110" tau="1.021" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck111" tau="1.104" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck112" tau="1.012" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck113" tau="1.066" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck114" tau="1.002" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck115" tau="1.063" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck116" tau="1.064" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck117" tau="1.052" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck118" tau="1.036" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck119" tau="1.005" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck120" tau="1.056" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck121" tau="1.016" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck122" tau="1.001" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck123" tau="1.083" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck124" tau="1.025" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck125" tau="1.019" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck126" tau="1.019" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck127" tau="1.087" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck128" tau="1.016" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck129" tau="1.055" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck130" tau="1.004" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck131" tau="1.052" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck132" tau="1.086" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck133" tau="1.014" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck134" tau="1.069" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck135" tau="1.02" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck136" tau="1.025" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck137" tau="1.082" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck138" tau="1.053" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck139" tau="1.034" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck140" tau="1.027" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck141" tau="1.04" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck142" tau="1.024" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck143" tau="1.096" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck144" tau="1.06" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck145" tau="1.013" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck146" tau="1.022" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck147" tau="1.04" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck148" tau="1.047" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck149" tau="1.004" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck150" tau="1.034" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck151" tau="1.019" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck152" tau="1.034" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck153" tau="1.07" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck154" tau="1.054" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck155" tau="1.0" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck156" tau="1.02" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck157" tau="1.056" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck158" tau="1.054" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck159" tau="1.034" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck160" tau="1.035" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck161" tau="1.104" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck162" tau="1.007" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck163" tau="1.04" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck164" tau="1.064" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck165" tau="1.087" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck166" tau="1.048" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck167" tau="1.095" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck168" tau="1.023" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck169" tau="1.048" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck170" tau="1.064" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck171" tau="1.132" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck172" tau="1.002" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck173" tau="1.016" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck174" tau="1.002" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck175" tau="1.095" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck176" tau="1.012" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck177" tau="1.005" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck178" tau="1.033" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck179" tau="1.071" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck180" tau="1.104" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck181" tau="1.102" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck182" tau="1.132" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck183" tau="1.07" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck184" tau="1.014" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck185" tau="1.0" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck186" tau="1.009" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck187" tau="1.008" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck188" tau="1.105" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck189" tau="1.089" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck190" tau="1.104" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck191" tau="1.056" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck192" tau="1.03" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck193" tau="1.028" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck194" tau="1.023" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck195" tau="1.022" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck196" tau="1.074" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck197" tau="1.004" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck198" tau="1.012" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck199" tau="1.059" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1100" tau="1.041" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1101" tau="1.005" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1102" tau="1.002" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1103" tau="1.004" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1104" tau="1.019" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1105" tau="1.066" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1106" tau="1.088" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1107" tau="1.069" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1108" tau="1.021" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1109" tau="1.03" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1110" tau="1.086" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1111" tau="1.004" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1112" tau="1.023" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1113" tau="1.002" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1114" tau="1.012" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1115" tau="1.121" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1116" tau="1.074" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1117" tau="1.088" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1118" tau="1.01" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1119" tau="1.013" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1120" tau="1.079" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1121" tau="1.041" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1122" tau="1.079" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1123" tau="1.025" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1124" tau="1.004" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1125" tau="1.007" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1126" tau="1.12" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1127" tau="1.016" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1128" tau="1.008" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1129" tau="1.017" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1130" tau="1.074" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1131" tau="1.039" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1132" tau="1.041" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1133" tau="1.025" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1134" tau="1.033" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1135" tau="1.026" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1136" tau="1.069" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1137" tau="1.029" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1138" tau="1.009" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1139" tau="1.083" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1140" tau="1.01" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1141" tau="1.059" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1142" tau="1.017" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1143" tau="1.066" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1144" tau="1.047" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1145" tau="1.069" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1146" tau="1.012" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1147" tau="1.073" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1148" tau="1.021" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1149" tau="1.065" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1150" tau="1.057" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1151" tau="1.004" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1152" tau="1.049" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1153" tau="1.064" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1154" tau="1.038" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1155" tau="1.043" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1156" tau="1.038" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1157" tau="1.047" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1158" tau="1.012" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1159" tau="1.013" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1160" tau="1.089" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1161" tau="1.014" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1162" tau="1.025" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1163" tau="1.055" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1164" tau="1.102" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1165" tau="1.035" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1166" tau="1.013" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1167" tau="1.087" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1168" tau="1.043" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1169" tau="1.017" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1170" tau="1.021" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1171" tau="1.061" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1172" tau="1.034" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1173" tau="1.012" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1174" tau="1.013" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1175" tau="1.051" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1176" tau="1.03" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1177" tau="1.052" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1178" tau="1.123" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1179" tau="1.082" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1180" tau="1.04" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1181" tau="1.051" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1182" tau="1.012" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1183" tau="1.006" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1184" tau="1.121" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1185" tau="1.004" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1186" tau="1.015" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1187" tau="1.056" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1188" tau="1.017" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1189" tau="1.022" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1190" tau="1.087" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1191" tau="1.102" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1192" tau="1.031" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1193" tau="1.019" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1194" tau="1.026" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1195" tau="1.03" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1196" tau="1.059" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1197" tau="1.053" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1198" tau="1.01" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1199" tau="1.048" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1200" tau="1.066" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1201" tau="1.094" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1202" tau="1.055" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1203" tau="1.022" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1204" tau="1.036" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1205" tau="1.001" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1206" tau="1.065" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1207" tau="1.015" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1208" tau="1.035" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1209" tau="1.074" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1210" tau="1.007" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1211" tau="1.083" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1212" tau="1.066" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1213" tau="1.004" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1214" tau="1.094" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1215" tau="1.025" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1216" tau="1.057" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1217" tau="1.083" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1218" tau="1.027" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1219" tau="1.02" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1220" tau="1.049" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1221" tau="1.056" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1222" tau="1.022" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1223" tau="1.024" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1224" tau="1.03" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1225" tau="1.028" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1226" tau="1.061" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1227" tau="1.025" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1228" tau="1.125" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1229" tau="1.013" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1230" tau="1.019" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1231" tau="1.061" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1232" tau="1.018" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1233" tau="1.019" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1234" tau="1.029" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1235" tau="1.039" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1236" tau="1.002" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1237" tau="1.002" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1238" tau="1.038" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1239" tau="1.123" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1240" tau="1.031" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1241" tau="1.048" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1242" tau="1.06" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1243" tau="1.142" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1244" tau="1.021" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1245" tau="1.004" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1246" tau="1.011" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1247" tau="1.055" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1248" tau="1.054" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1249" tau="1.013" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1250" tau="1.001" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1251" tau="1.011" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1252" tau="1.018" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1253" tau="1.052" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1254" tau="1.054" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1255" tau="1.056" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1256" tau="1.019" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1257" tau="1.125" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1258" tau="1.038" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1259" tau="1.051" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1260" tau="1.102" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1261" tau="1.001" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1262" tau="1.096" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1263" tau="1.021" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1264" tau="1.047" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1265" tau="1.055" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1266" tau="1.132" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1267" tau="1.007" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1268" tau="1.049" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1269" tau="1.105" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1270" tau="1.049" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1271" tau="1.014" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1272" tau="1.003" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1273" tau="1.052" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1274" tau="1.005" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1275" tau="1.12" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1276" tau="1.034" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1277" tau="1.02" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1278" tau="1.014" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1279" tau="1.005" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1280" tau="1.114" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1281" tau="1.114" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1282" tau="1.063" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1283" tau="1.004" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1284" tau="1.005" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1285" tau="1.025" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1286" tau="1.003" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1287" tau="1.051" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1288" tau="1.009" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1289" tau="1.06" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1290" tau="1.142" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1291" tau="1.043" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1292" tau="1.066" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1293" tau="1.012" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1294" tau="1.012" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1295" tau="1.006" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1296" tau="1.043" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1297" tau="1.025" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1298" tau="1.035" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+		<vType id="vtype_truck1299" tau="1.066" sigma="0.500" length="7.100" lcStrategic="1.000" color="blue" vClass="truck" carFollowModel="EIDM" />
+
+	</vTypeDistribution>
+
+</additional>

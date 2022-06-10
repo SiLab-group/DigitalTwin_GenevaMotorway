@@ -1,0 +1,31 @@
+Loading net-file from 'C:\Users\kkusic\Desktop\DT-GM\SCENARIO-I\in/motorway_GE_edges_300m_x16.net.xml' ... done (240ms).
+Loading additional-files from 'C:\Users\kkusic\Desktop\DT-GM\SCENARIO-I\in/add/vtype/vtype_distribution.add.xml' ... done (136ms).
+Loading additional-files from 'C:\Users\kkusic\Desktop\DT-GM\SCENARIO-I\in/route/routesDistributions.rou.xml' ... done (32ms).
+Loading additional-files from 'C:\Users\kkusic\Desktop\DT-GM\SCENARIO-I\in/flow/flows.flows.xml' ... done (28ms).
+Loading additional-files from 'C:\Users\kkusic\Desktop\DT-GM\SCENARIO-I\in/add/detector/detectors.add.xml' ... done (14ms).
+Loading additional-files from 'C:\Users\kkusic\Desktop\DT-GM\SCENARIO-I\in/add/cali/cali_E_NS_edge.add.xml' ... done (235ms).
+Loading additional-files from 'C:\Users\kkusic\Desktop\DT-GM\SCENARIO-I\in/add/cali/cali_S_NE_edge.add.xml' ... done (131ms).
+Loading additional-files from 'C:\Users\kkusic\Desktop\DT-GM\SCENARIO-I\in/add/cali/cali_N_ES_edge.add.xml' ... done (111ms).
+Loading additional-files from 'C:\Users\kkusic\Desktop\DT-GM\SCENARIO-I\in/add/cali/cali_N_ES_onRamp1.add.xml' ... done (131ms).
+Loading additional-files from 'C:\Users\kkusic\Desktop\DT-GM\SCENARIO-I\in/add/cali/cali_ES_N_onRamp1.add.xml' ... done (117ms).
+Loading additional-files from 'C:\Users\kkusic\Desktop\DT-GM\SCENARIO-I\in/add/cali/cali_x15_E_onRamp.add.xml' ... done (101ms).
+Loading additional-files from 'C:\Users\kkusic\Desktop\DT-GM\SCENARIO-I\in/add/cali/cali_x16_N_onRamp.add.xml' ... done (106ms).
+Loading done.
+Running start /B "" "C:\Program Files (x86)\Eclipse\Sumo\/bin/netedit" --registry-viewport -s "C:\Users\kkusic\Desktop\DT-GM\SCENARIO-I\in/motorway_GE_edges_300m_x16.net.xml".
+Simulation ended at time: 0.00
+Performance: 
+ Duration: 147.86s
+ Real time factor: 0
+ UPS: 0.000000
+Vehicles: 
+ Inserted: 0
+ Running: 0
+ Waiting: 0
+Statistics (avg):
+ RouteLength: 0.00
+ Speed: 0.00
+ Duration: 0.00
+ WaitingTime: 0.00
+ TimeLoss: 0.00
+ DepartDelay: 0.00
+

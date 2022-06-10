@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-06-06 03:07:30 by Eclipse SUMO GUI Version v1_13_0+0432-58a1a6dbc81
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\kkusic\Desktop\DT-GM\SCENARIO-I\in/motorway_GE_edges_300m_x16.net.xml"/>
+        <additional-files value="C:\Users\kkusic\Desktop\DT-GM\SCENARIO-I\in/add/vtype/vtype_distribution.add.xml,C:\Users\kkusic\Desktop\DT-GM\SCENARIO-I\in/route/routesDistributions.rou.xml,C:\Users\kkusic\Desktop\DT-GM\SCENARIO-I\in/flow/flows.flows.xml,C:\Users\kkusic\Desktop\DT-GM\SCENARIO-I\in/add/detector/detectors.add.xml,C:\Users\kkusic\Desktop\DT-GM\SCENARIO-I\in/add/cali/cali_E_NS_edge.add.xml,C:\Users\kkusic\Desktop\DT-GM\SCENARIO-I\in/add/cali/cali_S_NE_edge.add.xml,C:\Users\kkusic\Desktop\DT-GM\SCENARIO-I\in/add/cali/cali_N_ES_edge.add.xml,C:\Users\kkusic\Desktop\DT-GM\SCENARIO-I\in/add/cali/cali_N_ES_onRamp1.add.xml,C:\Users\kkusic\Desktop\DT-GM\SCENARIO-I\in/add/cali/cali_ES_N_onRamp1.add.xml,C:\Users\kkusic\Desktop\DT-GM\SCENARIO-I\in/add/cali/cali_x15_E_onRamp.add.xml,C:\Users\kkusic\Desktop\DT-GM\SCENARIO-I\in/add/cali/cali_x16_N_onRamp.add.xml"/>
+    </input>
+
+    <time>
+        <step-length value="0.25"/>
+    </time>
+
+    <processing>
+        <step-method.ballistic value="true"/>
+        <collision.mingap-factor value="0"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+        <log value="C:\Users\kkusic\Desktop\DT-GM\SCENARIO-I\sim.log"/>
+        <duration-log.statistics value="true"/>
+    </report>
+
+    <gui_only>
+        <gui-settings-file value="C:\Users\kkusic\Desktop\DT-GM\SCENARIO-I\in/gui/view_relative_speed.view.xml"/>
+        <delay value="0"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+</detector>
