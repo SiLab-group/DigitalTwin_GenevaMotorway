@@ -51,7 +51,7 @@ Note: current DT-GM framework uses SQL between ODPMS (traffic counters) and SUMO
 copy in cmd to create Python virtual environment using terminal command (Note: if you have multiple pythons installed specify a version):
 update pip
 ```
--m pip install --upgrade pip
+python -m pip install --upgrade pip
 ```
 create virtual environment
 ```
