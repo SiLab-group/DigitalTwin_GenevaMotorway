@@ -32,7 +32,6 @@ import time
 import math
 import datetime as dt
 import pandas as pd
-from copy import deepcopy
 import functions_DT_GE_live24h as fn
 import pyodbc
 
