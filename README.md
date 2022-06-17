@@ -96,7 +96,7 @@ UnknownClassSpeed float NULL,
 )
 ```
 
-# Run Scenarious
+# Run Scenarios
 
 ##  Only for (SCENARIO-I) start real-time data collecting from traffic counters and storing it in SQL
 Note: register at ODPMS https://opentransportdata.swiss/en/
