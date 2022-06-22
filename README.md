@@ -5,7 +5,7 @@ This git repository is linked to the research papers entitled "_Will be updated 
 This repository includes all the files required to run the simulations used to produce the results presented in the papers:
 
 ## (SCENARIO-I) Example of real-time simulation of actual traffic flow data (with minute resolution) obtained directly from Geneva motorway via ODPMS:
-Note: one needs to register at **Open data platform mobility Switzerland (ODPMS)** https://opentransportdata.swiss/en/ to get access to actual traffic data from traffic counters
+Notes: one needs to register at **Open data platform mobility Switzerland (ODPMS)** https://opentransportdata.swiss/en/ to get access to actual traffic data from traffic counters. Also, calculations in code are dependent on the step_length parameter, so it needs to be coupled with the parameter step length in .sumocfg to have everything working properly. Use the values for step length recommended at (https://sumo.dlr.de/userdoc/Car-Following-Models/EIDM.html). As well as, so far the EIDM model was not tested with option --step-method.ballistic.  
 * SUMO Geneva motorway network model and scenario files,
 * instructions to register on the ODPMS platform and get access to actual traffic data,
 * instructions to setup SQL database on a local computer,
