@@ -164,8 +164,8 @@ X_0224_03_list=df_X_0224_03.values.tolist()
 X_0224_04_list=df_X_0224_04.values.tolist()
 timestamp=df_timestamp.values.tolist()
 
-step_length=0.25  # sim. step_length=0.25 [sec] Must be te same as specified in confiuration file 
-time_sleep = 0 # you can control simulation speed execution (only for SCENARIO-II), for live simulation (SCENARIO-I) it should be the same as simulation step length
+step_length=0.25  # sim. step length tested for one of this values (0.1, 0.2, 0.25, 0.5). Must be equal to step length specified in .sumocfg file 
+time_sleep = 0 # you can control simulation speed execution (only for SCENARIO-II), for live simulation (SCENARIO-I) it should be equal to simulation step length
 
 while(run<hours):
 
