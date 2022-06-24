@@ -130,7 +130,7 @@ oldVehIDs_out_S = []
 
 save_data_time = ''
 
-step_length=0.25  # sim. step_length=0.25 [sec] Must be te same as specified in confiuration file 
+step_length=0.25  # sim. step length tested for one of this values (0.1, 0.2, 0.25, 0.5). Must be equal to step length specified in .sumocfg file 
 
 
 # Change the name of your SERVER in SERVER=KKUSIC-L\SQLEXPRESS (see your database), and UID=FPZ\kkusic (used by SQL authentication)
