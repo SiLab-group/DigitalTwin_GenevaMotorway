@@ -154,7 +154,7 @@ period_check_sim_speed = 10 #[s] periodically check the simulation speed executi
 sql_key = 1
 #start_time_correction = 0
 #delta_time_correction = 0
-time_sleep = 0.25
+time_sleep = step_length    # it should be equal to simulation step length
 
 while(run<hours):
 
@@ -202,10 +202,7 @@ while(run<hours):
     flow_off_ramp_x9_N_min = 0
     speedSum_off_ramp_x9_N = 0
 
-    
-#    if run>0:
-#       loadState(run-1)
-#             time.sleep(.05)
+
     step = 0
 
     while(step <= hours*3600*(1/step_length)):    # since step_length is shortened to 0.25 (default 1 sec)
