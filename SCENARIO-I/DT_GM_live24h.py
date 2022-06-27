@@ -325,7 +325,8 @@ while(run<hours):
             time_sleep = (period_check_sim_speed - delta_time_corr)/(period_check_sim_speed/step_length)
             if time_sleep<0:
                 time_sleep = 0            
-	    t_corr_iter+=1            
+            t_corr_iter+=1
+	
 #=== CHECKPOINT End                
             
         if step%(60*(1/step_length))==0:
