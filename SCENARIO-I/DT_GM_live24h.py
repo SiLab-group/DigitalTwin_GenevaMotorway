@@ -577,7 +577,7 @@ while(run<hours):
                 target_idx_x11 = 0
                 target_idx_x12 = 1 
                 target_idx_x14 = 6 
-                target_idx_x15 = 1 
+                target_idx_x15 = 2 
                 target_idx_x16 = 0
             elif run == 8 or run == 9:
                 target_idx_x6 = 9 
@@ -604,14 +604,14 @@ while(run<hours):
                 target_idx_x6 = 5     
                 target_idx_x11 = 0
                 target_idx_x12 = 2 
-                target_idx_x14 = 6 
+                target_idx_x14 = 7 
                 target_idx_x15 = 0 
                 target_idx_x16 = 2 
             elif run == 18 or run == 19: 
-                target_idx_x6 = 5  
+                target_idx_x6 = 6  
                 target_idx_x11 = 1
                 target_idx_x12 = 1
-                target_idx_x14 = 6  
+                target_idx_x14 = 7  
                 target_idx_x15 = 0
                 target_idx_x16 = 1  
             elif run == 20 or run == 21: 
