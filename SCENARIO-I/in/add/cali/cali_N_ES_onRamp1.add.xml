@@ -21,7 +21,7 @@
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
 	<route id="route_cali_N_ES152_onRamp1" edges="N_ES152_onramp1 N_ES152_onramp1.89 N_ES152_onramp1.762 N_ES152_onramp1.318 N_ES153 N_ES154 N_ES155 N_ES156 N_ES157 N_ES158 N_ES159" color="red"/>
 	
-	<calibrator id="caliCar1_N_ES_onRamp1" vTypes="vtype_car1" edge="N_ES152_onramp1" pos="0" jamThreshold="0.05">
+	<calibrator id="caliCar1_N_ES_onRamp1" vTypes="vtype_car1" edge="N_ES152_onramp1" pos="0" jamThreshold="0.5">
 
 
 		<flow begin="0" end="60" route="route_cali_N_ES152_onRamp1" vehsPerHour="180" speed="27.78" type="vtype_car1" departPos="random_free" departSpeed="max"/>
@@ -1469,7 +1469,7 @@
 	</calibrator>
 	
 	
-	<calibrator id="caliTruck1_N_ES_onRamp1" vTypes="vtype_truck1" edge="N_ES152_onramp1" pos="0" jamThreshold="0.05">
+	<calibrator id="caliTruck1_N_ES_onRamp1" vTypes="vtype_truck1" edge="N_ES152_onramp1" pos="0" jamThreshold="0.5">
 
 
 		<flow begin="0" end="60" route="route_cali_N_ES152_onRamp1" vehsPerHour="180" speed="27.78" type="vtype_truck1" departPos="random_free" departSpeed="max"/>
