@@ -322,7 +322,12 @@ while n0==1:
                 cursor = conn.cursor()
                 cursor.execute(query, insert_date)
                 conn.commit()
-                print('Something went wrong when iterating through XML response! -> possible reasons: data currently not available from a server')
+                print('Something went wrong when iterating through XML response! \n'+''+\
+                      'Possible reasons: \n'+''+\
+                      '1) the reason might be a newly added attribute by ODPMS \n'+''+\
+                      '2) problem with accessing the ODPMS server \n'+''+\
+                      '3) data currently not available from a server \n')
+                
                 # optional info. via email
                 #sendEmail('Something went wrong when iterating through XML response!')                
         else:
