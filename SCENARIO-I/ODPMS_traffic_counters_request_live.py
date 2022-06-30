@@ -279,6 +279,7 @@ while n0==1:
                         cursor = conn.cursor()
                         cursor.execute(query, insert_date)
                         conn.commit()
+                        print('SENSOR_ERROR (other sensors are working)  this not! '+str(attr_CH_data[i][0]))
                         # optional info. via email
                         #sendEmail('SENSOR_ERROR (other sensors are working)  this not! '+str(attr_CH_data[i][0]))
                     else: 
@@ -321,7 +322,9 @@ while n0==1:
                 cursor = conn.cursor()
                 cursor.execute(query, insert_date)
                 conn.commit()
-                sendEmail('Something went wrong when iterating through XML response!')                
+                print('Something went wrong when iterating through XML response! -> possible reasons: data currently not available from a server')
+                # optional info. via email
+                #sendEmail('Something went wrong when iterating through XML response!')                
         else:
             
             query = """insert into tblDetectors 
