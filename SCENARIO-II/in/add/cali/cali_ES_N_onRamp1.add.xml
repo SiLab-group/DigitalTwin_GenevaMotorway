@@ -22,7 +22,7 @@
 
 	<route id="route_cali_ES_N56_onRamp1" edges="ES_N56_onramp1 ES_N56_onramp1.90 ES_N57_onramp1 ES_N57_onramp1.140 ES_N12 ES_N13 ES_N14 ES_N15 ES_N16 ES_N17 ES_N18" color="red"/>
 	
-	<calibrator id="caliCar1_ES_N_onRamp1" vTypes="vtype_car1" edge="ES_N56_onramp1" pos="0" jamThreshold="0.05">
+	<calibrator id="caliCar1_ES_N_onRamp1" vTypes="vtype_car1" edge="ES_N56_onramp1" pos="0" jamThreshold="0.5">
 
 		<flow begin="0" end="60" route="route_cali_ES_N56_onRamp1" vehsPerHour="180" speed="27.78" type="vtype_car1" departPos="random_free" departSpeed="max"/>
 		<flow begin="60" end="120" route="route_cali_ES_N56_onRamp1" vehsPerHour="180" speed="27.78" type="vtype_car1" departPos="random_free" departSpeed="max"/>
@@ -1470,7 +1470,7 @@
 	</calibrator>
 	
 	
-	<calibrator id="caliTruck1_ES_N_onRamp1" vTypes="vtype_truck1" edge="ES_N56_onramp1" pos="0" jamThreshold="0.05">
+	<calibrator id="caliTruck1_ES_N_onRamp1" vTypes="vtype_truck1" edge="ES_N56_onramp1" pos="0" jamThreshold="0.5">
 
 		<flow begin="0" end="60" route="route_cali_ES_N56_onRamp1" vehsPerHour="180" speed="27.78" type="vtype_truck1" departPos="random_free" departSpeed="max"/>
 		<flow begin="60" end="120" route="route_cali_ES_N56_onRamp1" vehsPerHour="180" speed="27.78" type="vtype_truck1" departPos="random_free" departSpeed="max"/>
