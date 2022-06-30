@@ -147,3 +147,5 @@ run dynamic flow simulation script:
 *
 If you use DT-GM or its tools to create a new one, we would be glad to add you to the list.
 You can send an email with your name and affiliation to kusic.kresimir@hes-so.ch or kresimir.kusic@unizg.fpz.hr
+
+As well, feel free to contact us if you experience any problems, so we can improve or add additional comments to make DT-GM easier to use.
