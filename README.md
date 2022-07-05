@@ -47,12 +47,8 @@ Note: current DT-GM framework uses SQL between ODPMS (traffic counters) and SUMO
 
 ## Python setup:
 (I) Install Python (we tested DT-GM in version 3.9.13)<br/>
-(II) Open cmd and navigate to the directory where you want to create Python virtual environment (can be a path to our folder you downloaded) and run commands<br/> 
-copy in cmd to create Python virtual environment using terminal command (Note: if you have multiple pythons installed specify a version):
-update pip
-```
-python -m pip install --upgrade pip
-```
+(II) Open cmd and navigate to the directory where you want to create Python virtual environment (can be a path to our folder you downloaded) and run commands (copy) in cmd to create Python virtual environment using terminal command (Note: if you have multiple pythons installed specify a version):<br/>
+
 create virtual environment
 ```
 python -m venv venvDTGM
@@ -60,6 +56,10 @@ python -m venv venvDTGM
 activate virtual environment
 ```
 venvDTGM\Scripts\activate
+```
+update pip
+```
+python -m pip install --upgrade pip
 ```
 install necessary libraries from **requirements.txt** file
 ```
