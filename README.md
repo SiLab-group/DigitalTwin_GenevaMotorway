@@ -1,5 +1,5 @@
 # Digital Twin - Geneva Motorway (DT-GM) in SUMO
-This git repository is linked to the research papers entitled "_Will be updated soon!_"
+This git repository is linked to the research papers entitled "_Building a Motorway Digital Twin in SUMO: Real-Time Simulation of Continuous Data Stream from Traffic Counters_", and "_Will be updated soon!_"
 
 
 This repository includes all the files required to run the simulations used to produce the results presented in the papers:
@@ -34,9 +34,9 @@ Please use the following citation when referencing our work. Merci!
 >}
 
 >@inproceedings{Kusic2022_DT_GM_ELMAR,
->  title={Building a Motorway Digital Twin in SUMO: Real-Time Simulation of Continuous Data Stream from Traffic Counters},
 >  author={Kušić, Krešimir and Schumann, René and Ivanjko, Edouard},
->  booktitle={Will be updated soon!},
+>  booktitle={Proc. of 64th International Symposium ELMAR},
+>  title={(in press) {Building a Motorway Digital Twin in SUMO: Real-Time Simulation of Continuous Data Stream from Traffic Counters}},
 >  year={2022}
 >}
 
