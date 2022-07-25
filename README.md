@@ -27,7 +27,7 @@ Note: one **can change** the provided real **workday** traffic volume in **workd
 Please use the following citation when referencing our work. Merci!
 >@article{Kusic_DT_GM_2022,
 > author = {Krešimir Kušić and René Schumann and Edouard Ivanjko},
-> title = {Make it Real: On The Fly Synchronized Digital Twin of Geneva Motorway},
+> title = {A Digital Twin in Transportation: Real-Time Synergy of Traffic Data Streams and Simulation for Virtualizing Motorway Dynamics},
 > journal = {In review: {Will be updated soon!}},
 > year  = {2022},
 > publisher = {Elsevier}
