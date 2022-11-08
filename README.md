@@ -66,7 +66,7 @@ install necessary libraries from **requirements.txt** file
 pip install -r requirements.txt 
 ```
 ## SUMO setup:
-Instal SUMO (we tested DT_GM in version Latest Development Version May 30 2022 23:15:46 UTC)
+Instal SUMO (we tested DT_GM in version Latest Development Version May 30 2022 23:15:46 UTC), **however, we highly recommend using the latest release of SUMO**
 
 ## SQL setup (only for SCENARIO-I):
 (I) Install Microsoft SQL (we tested DT-GM in version: SQL Server 2019 Express and SQL Server Management Studio (SSMS) 18.11.1)<br/>
