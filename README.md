@@ -37,7 +37,7 @@ Please use the following citation when referencing our work. Merci!
 >@inproceedings{Kusic2022_DT_GM_ELMAR,
 >  author={Kušić, Krešimir and Schumann, René and Ivanjko, Edouard},
 >  booktitle={Proc. of 64th International Symposium ELMAR},
->  title={(in press) {Building a Motorway Digital Twin in SUMO: Real-Time Simulation of Continuous Data Stream from Traffic Counters}},
+>  title={{Building a Motorway Digital Twin in SUMO: Real-Time Simulation of Continuous Data Stream from Traffic Counters}},
 >  year={2022}
 >}
 
