@@ -25,12 +25,13 @@ Note: one **can change** the provided real **workday** traffic volume in **workd
 
 
 Please use the following citation when referencing our work. Merci!
->@article{Kusic_DT_GM_2022,
+>@article{KUSIC2023101858,
 > author = {Krešimir Kušić and René Schumann and Edouard Ivanjko},
-> title = {A Digital Twin in Transportation: Real-Time Synergy of Traffic Data Streams and Simulation for Virtualizing Motorway Dynamics},
-> journal = {In review: {Will be updated soon!}},
-> year  = {2022},
-> publisher = {Elsevier}
+> title = {A digital twin in transportation: Real-time synergy of traffic data streams and simulation for virtualizing motorway dynamics},
+> journal = {Advanced Engineering Informatics},
+> volume = {55},
+> year  = {2023},
+> doi = {https://doi.org/10.1016/j.aei.2022.101858}
 >}
 
 >@inproceedings{Kusic2022_DT_GM_ELMAR,
