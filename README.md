@@ -1,5 +1,5 @@
 # Digital Twin - Geneva Motorway (DT-GM) in SUMO
-This git repository is linked to the research papers entitled "_Building a Motorway Digital Twin in SUMO: Real-Time Simulation of Continuous Data Stream from Traffic Counters_", and "_Will be updated soon!_"
+This git repository is linked to the research papers entitled "_Building a Motorway Digital Twin in SUMO: Real-Time Simulation of Continuous Data Stream from Traffic Counters_", and "_A digital twin in transportation: Real-time synergy of traffic data streams and simulation for virtualizing motorway dynamics_"
 
 
 This repository includes all the files required to run the simulations used to produce the results presented in the papers:
