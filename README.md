@@ -117,7 +117,7 @@ run code for real-time traffic data collection
 ```
 ##  For (SCENARIO-I): run live simulation  (**actual traffic from motorway traffic counters - ODPMS**) <-> SQL <-> Python <-> TraCI <-> SUMO
 Run python script <DT_GM_live24h.py> using terminal command:<br/>
-activate virtual environemt
+activate virtual environment
 ```
 C:\Users\kkusic\Desktop\DT-GM>venvDTGM\Scripts\activate
 ```
@@ -131,7 +131,7 @@ run On-The-Fly synchronized Digital Twin Simulation of Geneva motorway (DT-GM) (
 ```
 
 #  For (SCENARIO-II): run small example of dynamic flow generation by sampling external flow inputs (one workday traffic dataset from input_flow.xlsx) into the running simulation
-activate virtual environemt
+activate virtual environment
 ```
 C:\Users\kkusic\Desktop\DT-GM>venvDTGM\Scripts\activate
 ```
@@ -145,7 +145,8 @@ run dynamic flow simulation script:
 ```
 
 ## Users
-*
+* Master-Thesis, author Paulo Ribeiro, GitHub nickname is "paulinho-16", Master in Informatics and Computing Engineering at FEUP (Faculty of Engineering of the University of Porto)
+
 If you use DT-GM or its tools to create a new one, we would be glad to add you to the list.
 You can send an email with your name and affiliation to kusic.kresimir@hes-so.ch or kresimir.kusic@unizg.fpz.hr
 
