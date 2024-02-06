@@ -148,6 +148,6 @@ run dynamic flow simulation script:
 * Master-Thesis, author Paulo Ribeiro, GitHub nickname is "paulinho-16", Master in Informatics and Computing Engineering at FEUP (Faculty of Engineering of the University of Porto)
 
 If you use DT-GM or its tools to create a new one, we would be glad to add you to the list.
-You can send an email with your name and affiliation to kusic.kresimir@hes-so.ch or kresimir.kusic@unizg.fpz.hr
+You can send an email with your name and affiliation to kresimir.kusic@unizg.fpz.hr
 
 As well, feel free to contact us if you experience any problems, so we can improve or add additional comments to make DT-GM easier to use.
