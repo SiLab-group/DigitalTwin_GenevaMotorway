@@ -145,7 +145,7 @@ run dynamic flow simulation script:
 ```
 
 ## Users
-* Master-Thesis, author Paulo Ribeiro, GitHub nickname is "paulinho-16", Master in Informatics and Computing Engineering at FEUP (Faculty of Engineering of the University of Porto)
+* Author Paulo Ribeiro, Master-Thesis: A Modelling Methodology Towards Automated Generation of Road Network Digital Twins, GitHub: https://github.com/paulinho-16, Master in Informatics and Computing Engineering at FEUP (Faculty of Engineering of the University of Porto)
 
 If you use DT-GM or its tools to create a new one, we would be glad to add you to the list.
 You can send an email with your name and affiliation to kresimir.kusic@unizg.fpz.hr
