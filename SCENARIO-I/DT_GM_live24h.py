@@ -678,6 +678,9 @@ while(run<hours):
                                     X_0224_02[0], (X_0224_01[1]/3.6 + X_0224_02[1]/3.6)/x,\
                                      'vtype_car1', 'route_cali_E_NS5',\
                                      departLane="free", departSpeed='max')
+		# TODO: use traci.edge.setMaxSpeed("XXX", (X_0224_01[1]/3.6 + X_0224_02[1]/3.6)/x)
+		# XXX should be ID edge of calibrator "caliCar1_E_NS5_0"
+		# Reason is that calibrator.setFlow <speed> does not affect vehicles' speed  
 
             v_cali_E_NS5_truck=[X_0224_01[3]/3.6, X_0224_02[3]/3.6]
             x =0.001 + sum(x > 0 for x in v_cali_E_NS5_truck)
