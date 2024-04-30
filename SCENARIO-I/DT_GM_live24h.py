@@ -133,8 +133,8 @@ save_data_time = ''
 step_length=0.25  # sim. step length tested for one of this values (0.1, 0.2, 0.25, 0.5). Must be equal to step length specified in .sumocfg file 
 
 
-# Change the name of your SERVER in SERVER=KKUSIC-L\SQLEXPRESS (see your database), and UID=FPZ\kkusic (used by SQL authentication)
-conn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER=KKUSIC-L\SQLEXPRESS;DATABASE=SWISS_traffic_data;UID=FPZ\kkusic;TRUSTED_CONNECTION=yes')
+# Change the name of your SERVER in (my server name looks like SERVER=KKUSIC-L (see your database), and user ID looks like UID=FPZ\kkusic (used by SQL authentication)
+conn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER=KKUSIC-L;DATABASE=SWISS_traffic_data;UID=FPZ\kkusic;TRUSTED_CONNECTION=yes')
 time.sleep(0.1)
 
 #The data from the last minute is always published 20 seconds after a full minute in UTC 0.
