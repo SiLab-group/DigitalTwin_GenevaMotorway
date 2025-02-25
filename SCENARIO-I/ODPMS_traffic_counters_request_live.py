@@ -102,11 +102,8 @@ def sendRequest(ID_station1, ID_station2, ID_station3, ID_station4, list_Email):
                             <dx223:measuredDataFilter xsi:type="dx223:MeasuredDataFilter">
                                 <dx223:measurementSiteTableReference xsi:type="dx223:_MeasurementSiteTableVersionedReference" targetClass="MeasurementSiteTable" id="OTD:TrafficData" version="0"></dx223:measurementSiteTableReference>
                                 <dx223:siteRequestReference xsi:type="dx223:_MeasurementSiteRecordVersionedReference" targetClass="MeasurementSiteRecord" """+ID_station1+"""/#" version="0"></dx223:siteRequestReference>
-                                <dx223:measurementSiteTableReference xsi:type="dx223:_MeasurementSiteTableVersionedReference" targetClass="MeasurementSiteTable" id="OTD:TrafficData" version="0"></dx223:measurementSiteTableReference>
                                 <dx223:siteRequestReference xsi:type="dx223:_MeasurementSiteRecordVersionedReference" targetClass="MeasurementSiteRecord" """+ID_station2+"""/#" version="0"></dx223:siteRequestReference>
-                                <dx223:measurementSiteTableReference xsi:type="dx223:_MeasurementSiteTableVersionedReference" targetClass="MeasurementSiteTable" id="OTD:TrafficData" version="0"></dx223:measurementSiteTableReference>
                                 <dx223:siteRequestReference xsi:type="dx223:_MeasurementSiteRecordVersionedReference" targetClass="MeasurementSiteRecord" """+ID_station3+"""/#" version="0"></dx223:siteRequestReference>
-                                <dx223:measurementSiteTableReference xsi:type="dx223:_MeasurementSiteTableVersionedReference" targetClass="MeasurementSiteTable" id="OTD:TrafficData" version="0"></dx223:measurementSiteTableReference>
                                 <dx223:siteRequestReference xsi:type="dx223:_MeasurementSiteRecordVersionedReference" targetClass="MeasurementSiteRecord" """+ID_station4+"""/#" version="0"></dx223:siteRequestReference>
                             </dx223:measuredDataFilter>
                         </dx223:genericPublicationExtension>
